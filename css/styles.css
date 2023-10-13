@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+
+H1 {
+    font-family: Teko, Arial, Helvetica, sans-serif;
+    font-size: larger;
+    
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+:root {
+    --Mylightblue: #7082a3;
+    --Myblue: #2d2839;
+    --Myred: #601410;
+    --Mywhite: #c8c2d7;
+    --Mygreen: #083c1b;
+    --Myborder: solid 3px var(--Myblue);
+    --Myshadow: 3px 2px 10px var(--Myred);
+
+}
+
+body {
+    background-color: var(--Mylightblue);  
+    }
+
+
+
+Legend {
+    font-family: Teko, Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+form, input, select, button{
+    border: var(--Myborder);
+    background-color: var(--Mywhite);
+    color: var(--Myred);
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 3px 2px 10px var(--Myred);
+}
+
+a {
+    font-family: Teko, Arial, Helvetica, sans-serif;
+    padding: 0.2em;
+    margin: 0.2em;
+    text-decoration: none;
+    border: var(--Myborder);
+    background-color: var(--Myblue); 
+    color: var(--Mywhite) ;
+    opacity: calc(80%);
+    box-shadow: var(--Myshadow);
+}
+
+select:hover, button:hover, a:hover{
+    box-shadow: 6px 4px 15px var(--Mygreen);
+
+}
+
+
+
